@@ -1,0 +1,306 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  scroll-margin-top: 80px;
+}
+
+nav {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #1b1b23;
+  padding: 0 40px 0 60px;
+}
+
+#nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  width: 452px;
+  height: 40px;
+}
+#nav-buttons a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+#contact-links {
+  width: 90px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#contact-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#contact-links #linkedin-link {
+  background-image: url("../images/MainPageFolder/linkedin_icon.png");
+}
+#contact-links #github-link {
+  background-image: url("../images/MainPageFolder/github_icon.png");
+}
+
+#inicio {
+  display: inline-block;
+  width: 100%;
+  height: 1144px;
+  background-color: #1b1b23;
+}
+
+#presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1340px;
+  height: 500px;
+  margin: 170px auto 0;
+}
+
+#my_name {
+  width: 420px;
+  height: 160px;
+}
+#my_name p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+#my_name p:nth-child(2) {
+  font-size: 72px;
+}
+
+#my_picture {
+  width: 500px;
+  height: 500px;
+  border: solid #fff 3px;
+  border-radius: 50%;
+  background-image: url("../images/MainPageFolder/gray-photo-placeholder-icon-design-ui-vector-35850819.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#projects_and_skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 120px;
+  min-height: 900px;
+}
+#projects_and_skills #technologies {
+  width: 280px;
+}
+
+.section_title {
+  width: 280px;
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 600;
+  border-bottom: 4px solid #1b1b23;
+}
+
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+}
+.skill span {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.skill p {
+  margin-left: 8px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#csharp-skill {
+  background-image: url("../images/Icons/C_sharp_icon.png");
+}
+
+#sql-skill {
+  background-image: url("../images/Icons/SQL_icon.png");
+}
+
+#wpf-skill {
+  background-image: url("../images/Icons/WPF_icon.png");
+}
+
+#git-skill {
+  background-image: url("../images/Icons/GIT_icon.png");
+}
+
+#about_me_and_contact {
+  background-color: #1b1b23;
+  padding: 160px 120px 120px;
+}
+#about_me_and_contact .section_title {
+  color: #fff;
+  margin-bottom: 28px;
+  border-color: #fff;
+}
+
+#about_me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 280px;
+}
+#about_me p {
+  width: 720px;
+  margin-bottom: 32px;
+  font-size: 20px;
+  color: #fff;
+}
+#about_me video {
+  width: 700px;
+}
+
+#contact h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+#contact p {
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #bfbfbf;
+}
+#contact form {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+#contact form input {
+  width: 100%;
+  height: 50px;
+  padding-left: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+#contact form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+#contact form input:focus::-moz-placeholder {
+  color: transparent;
+}
+#contact form input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+#contact form input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+#contact form input:focus::placeholder {
+  color: transparent;
+}
+#contact form textarea {
+  width: 100%;
+  height: 240px;
+  padding: 16px 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  resize: none;
+}
+#contact form textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+#contact form textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+#contact form textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+#contact form textarea:focus::-ms-input-placeholder {
+  color: transparent;
+}
+#contact form textarea:focus::placeholder {
+  color: transparent;
+}
+#contact form button {
+  margin-top: 16px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 16px;
+  font-size: 24px;
+  background-color: #221d79;
+  color: #fff;
+}
+#contact form button:hover {
+  cursor: pointer;
+}
