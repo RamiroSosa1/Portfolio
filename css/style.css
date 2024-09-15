@@ -20,7 +20,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 60px;
+  height: 50px;
   background-color: #1b1b23;
   padding: 0 40px 0 60px;
 }
@@ -40,15 +40,15 @@ nav {
   height: 40px;
 }
 #nav-buttons a {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
   color: #fff;
   text-decoration: none;
 }
 
 #contact-links {
-  width: 90px;
-  height: 40px;
+  width: 76px;
+  height: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,22 +58,30 @@ nav {
 }
 #contact-links a {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #contact-links #linkedin-link {
-  background-image: url("../images/MainPageFolder/linkedin_icon.png");
+  background-image: url("../images/Icons/Linkedin_icon.png");
 }
 #contact-links #github-link {
-  background-image: url("../images/MainPageFolder/github_icon.png");
+  background-image: url("../images/Icons/Github_icon.png");
 }
 
 #inicio {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
-  height: 1144px;
+  height: 100vh;
   background-color: #1b1b23;
 }
 
@@ -81,19 +89,22 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  width: 1340px;
+  min-width: 500px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1340px;
   height: 500px;
-  margin: 170px auto 0;
 }
 
 #my_name {
   width: 420px;
+  min-width: 320px;
   height: 160px;
 }
 #my_name p {
@@ -107,6 +118,7 @@ nav {
 
 #my_picture {
   width: 500px;
+  min-width: 320px;
   height: 500px;
   border: solid #fff 3px;
   border-radius: 50%;
@@ -122,6 +134,8 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
   padding: 100px 120px;
   min-height: 900px;
 }
@@ -132,7 +146,7 @@ nav {
 .section_title {
   width: 280px;
   margin-bottom: 16px;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   border-bottom: 4px solid #1b1b23;
 }
@@ -207,7 +221,9 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 280px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 200px;
 }
 #about_me p {
   width: 720px;
@@ -216,17 +232,13 @@ nav {
   color: #fff;
 }
 #about_me video {
+  display: none;
   width: 700px;
 }
 
-#contact h3 {
-  font-size: 24px;
-  font-weight: 400;
-  color: #fff;
-}
 #contact p {
   margin-bottom: 4px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   color: #bfbfbf;
 }
@@ -248,7 +260,7 @@ nav {
   width: 100%;
   height: 50px;
   padding-left: 8px;
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   border-radius: 12px;
 }
@@ -271,7 +283,7 @@ nav {
   width: 100%;
   height: 240px;
   padding: 16px 8px;
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   border-radius: 12px;
   resize: none;
@@ -297,7 +309,7 @@ nav {
   height: 50px;
   border: none;
   border-radius: 16px;
-  font-size: 24px;
+  font-size: 20px;
   background-color: #221d79;
   color: #fff;
 }
