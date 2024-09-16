@@ -1,3 +1,7 @@
+html {
+  font-size: 6.25%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -20,7 +24,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 50px;
+  height: 56px;
   background-color: #1b1b23;
   padding: 0 40px 0 60px;
 }
@@ -40,26 +44,26 @@ nav {
   height: 40px;
 }
 #nav-buttons a {
-  font-size: 14px;
+  font-size: 16rem;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
 }
 
 #contact-links {
-  width: 76px;
-  height: 32px;
+  height: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 8px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 #contact-links a {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -91,6 +95,7 @@ nav {
   display: flex;
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+  margin: 0 100px;
   width: 1340px;
   min-width: 500px;
   -webkit-box-pack: justify;
@@ -108,12 +113,12 @@ nav {
   height: 160px;
 }
 #my_name p {
-  font-size: 28px;
+  font-size: 28rem;
   font-weight: bold;
   color: #fff;
 }
 #my_name p:nth-child(2) {
-  font-size: 72px;
+  font-size: 72rem;
 }
 
 #my_picture {
@@ -146,7 +151,7 @@ nav {
 .section_title {
   width: 280px;
   margin-bottom: 16px;
-  font-size: 28px;
+  font-size: 28rem;
   font-weight: 600;
   border-bottom: 4px solid #1b1b23;
 }
@@ -184,7 +189,7 @@ nav {
 .skill p {
   margin-left: 8px;
   display: inline-block;
-  font-size: 16px;
+  font-size: 16rem;
   font-weight: 500;
 }
 
@@ -228,7 +233,8 @@ nav {
 #about_me p {
   width: 720px;
   margin-bottom: 32px;
-  font-size: 20px;
+  font-size: 20rem;
+  font-weight: 400;
   color: #fff;
 }
 #about_me video {
@@ -238,7 +244,7 @@ nav {
 
 #contact p {
   margin-bottom: 4px;
-  font-size: 12px;
+  font-size: 16rem;
   font-weight: 400;
   color: #bfbfbf;
 }
@@ -260,7 +266,7 @@ nav {
   width: 100%;
   height: 50px;
   padding-left: 8px;
-  font-size: 12px;
+  font-size: 16rem;
   border: none;
   border-radius: 12px;
 }
@@ -283,7 +289,7 @@ nav {
   width: 100%;
   height: 240px;
   padding: 16px 8px;
-  font-size: 12px;
+  font-size: 16rem;
   border: none;
   border-radius: 12px;
   resize: none;
@@ -309,7 +315,7 @@ nav {
   height: 50px;
   border: none;
   border-radius: 16px;
-  font-size: 20px;
+  font-size: 20rem;
   background-color: #221d79;
   color: #fff;
 }
